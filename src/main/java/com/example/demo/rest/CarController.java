@@ -42,7 +42,9 @@ public class CarController {
     /* ============= SPRING CRUD METHODS ================ */
 
     /**
-     * http://localhost:8080/api/cars/1
+     * It retrieves one car from database using the id property
+     * @param id
+     * @return
      */
     @GetMapping("/cars/{id}")
     @ApiOperation("Buscar coche por id")
